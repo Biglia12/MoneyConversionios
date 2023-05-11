@@ -7,7 +7,7 @@
 
 import UIKit
 //test
-class ViewController: UIViewController {
+class DashBoardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
