@@ -13,7 +13,8 @@ class CalculatorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        txtLabelCalculator.text = "txt calculator"
+        
+    
     }
     
 
