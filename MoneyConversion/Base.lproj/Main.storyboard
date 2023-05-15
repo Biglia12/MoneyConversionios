@@ -8,54 +8,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Calculator View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="CalculatorViewController" customModule="MoneyConversion" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="textCalculator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2V-Zg-9QH">
-                                <rect key="frame" x="106" y="339" width="186" height="37"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="M2V-Zg-9QH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="280" id="Goo-4B-g9X"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M2V-Zg-9QH" secondAttribute="trailing" constant="101" id="ZPh-gc-YkR"/>
-                            <constraint firstItem="M2V-Zg-9QH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="jot-Wd-DIa"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" selectedImage="number" catalog="system" id="3bH-Ff-Wep"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="74" y="732"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="5MQ-xS-NXD">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Kgx-lN-0bx" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="z65-fR-FUv">
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="GlW-F4-fXf"/>
-                        <segue destination="KMK-CX-LnN" kind="relationship" relationship="viewControllers" id="Nda-i9-Cca"/>
-                        <segue destination="gXr-8N-QPI" kind="relationship" relationship="viewControllers" id="L3z-Gs-E4N"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="c4n-qH-2cS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="73" y="-8"/>
-        </scene>
         <!--Dash Board View Controller-->
         <scene sceneID="BNC-7X-AUh">
             <objects>
@@ -80,12 +32,67 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="mostRecent" id="zAS-oc-OH5"/>
+                    <connections>
+                        <outlet property="txtLabel" destination="paW-3e-JpO" id="cUO-uQ-ugf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sc4-si-Bib" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-706.10687022900765" y="731.69014084507046"/>
+            <point key="canvasLocation" x="-805" y="732"/>
         </scene>
-        <!--Item-->
+        <!--Tab Bar Controller-->
+        <scene sceneID="5MQ-xS-NXD">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Kgx-lN-0bx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="z65-fR-FUv">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="KMK-CX-LnN" kind="relationship" relationship="viewControllers" id="1G1-BY-Tls"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="rje-Ve-cbT"/>
+                        <segue destination="gXr-8N-QPI" kind="relationship" relationship="viewControllers" id="jdR-e6-NrN"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c4n-qH-2cS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73" y="-8"/>
+        </scene>
+        <!--Calculator View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CalculatorViewController" customModule="MoneyConversion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="textCalculator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2V-Zg-9QH">
+                                <rect key="frame" x="106" y="339" width="186" height="37"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="M2V-Zg-9QH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="280" id="Goo-4B-g9X"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M2V-Zg-9QH" secondAttribute="trailing" constant="101" id="ZPh-gc-YkR"/>
+                            <constraint firstItem="M2V-Zg-9QH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="jot-Wd-DIa"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="3bH-Ff-Wep"/>
+                    <connections>
+                        <outlet property="txtLabelCalculator" destination="M2V-Zg-9QH" id="ndR-Z5-mgp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="73" y="732"/>
+        </scene>
+        <!--Historic View Controller-->
         <scene sceneID="0rz-EU-wr4">
             <objects>
                 <viewController id="gXr-8N-QPI" customClass="HistoricViewController" customModule="MoneyConversion" customModuleProvider="target" sceneMemberID="viewController">
@@ -93,7 +100,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="textHistoric" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krk-pc-ihx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krk-pc-ihx">
                                 <rect key="frame" x="108" y="337" width="153" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <nil key="textColor"/>
@@ -108,7 +115,10 @@
                             <constraint firstItem="UK1-QJ-Yk7" firstAttribute="trailing" secondItem="krk-pc-ihx" secondAttribute="trailing" constant="132" id="xMs-TG-k46"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="timer" catalog="system" id="h98-vv-vas"/>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="h98-vv-vas"/>
+                    <connections>
+                        <outlet property="txtLabelHisto" destination="krk-pc-ihx" id="bwR-Hr-Q1Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7I7-SR-a5y" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,8 +126,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="number" catalog="system" width="128" height="123"/>
-        <image name="timer" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

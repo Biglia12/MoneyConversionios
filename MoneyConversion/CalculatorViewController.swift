@@ -9,10 +9,11 @@ import UIKit
 
 class CalculatorViewController: UIViewController {
 
+    @IBOutlet weak var txtLabelCalculator: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        txtLabelCalculator.text = "txt calculator"
     }
     
 

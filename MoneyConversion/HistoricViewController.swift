@@ -9,10 +9,11 @@ import UIKit
 
 class HistoricViewController: UIViewController {
 
+    @IBOutlet weak var txtLabelHisto: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        txtLabelHisto.text = "history text"
     }
     
 

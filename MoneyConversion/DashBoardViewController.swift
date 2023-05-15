@@ -9,9 +9,12 @@ import UIKit
 //test
 class DashBoardViewController: UIViewController {
 
+    @IBOutlet weak var txtLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        txtLabel.text = "TextDash"
+        
     }
 
 
