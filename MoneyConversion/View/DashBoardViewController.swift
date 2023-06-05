@@ -15,12 +15,13 @@ class DashBoardViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        UITabBar.appearance().unselectedItemTintColor = UIColor.white
     
 
         print("viewDidLoad executed successfully")
         
         txtLabel.text = "TextDash"
-        
     }
 
 
