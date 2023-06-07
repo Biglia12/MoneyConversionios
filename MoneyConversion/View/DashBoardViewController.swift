@@ -9,7 +9,7 @@ import UIKit
 
 class DashBoardViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let tabBar = UITabBar()
+    let tabBar = UITabBar.self
     var listCasaResponse = [CasaResponse]()
     
     @IBOutlet weak var table: UITableView!
@@ -17,19 +17,39 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        UITabBar.appearance().unselectedItemTintColor = UIColor.white //cambio de color del tabbar
-        
+        tabBar.appearance().unselectedItemTintColor = UIColor.white //cambio de color del tabbar
+
         table.delegate = self
         table.dataSource = self
+        table.bounces = false
+        table.alwaysBounceVertical = false
+        table.alwaysBounceHorizontal = false
         
         let list1 = CasaResponse(nombre:"jose1",email: "jose@mal")
         let list2 = CasaResponse(nombre:"jose2",email: "jose@mal")
         let list3 = CasaResponse(nombre:"jose3",email: "jose@mal")
         let list4 = CasaResponse(nombre:"jose4",email: "jose@mal")
+    
         
         listCasaResponse.append(list1)
         listCasaResponse.append(list2)
         listCasaResponse.append(list3)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
+        listCasaResponse.append(list4)
         listCasaResponse.append(list4)
         
     }

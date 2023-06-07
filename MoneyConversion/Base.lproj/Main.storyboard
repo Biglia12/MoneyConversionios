@@ -76,7 +76,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" name="ColorPrimary"/>
                         <color key="tintColor" name="ColorPrimary"/>
-                        <color key="barTintColor" systemColor="labelColor"/>
+                        <color key="barTintColor" name="ColorPrimary"/>
                         <color key="selectedImageTintColor" name="ColorPurple"/>
                     </tabBar>
                     <connections>
@@ -150,9 +150,6 @@
         <namedColor name="ColorPurple">
             <color red="0.21600000560283661" green="0.0" blue="0.70200002193450928" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
