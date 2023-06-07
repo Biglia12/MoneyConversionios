@@ -6,22 +6,46 @@
 //
 
 import UIKit
-//test
-class DashBoardViewController: UIViewController {
 
-    @IBOutlet weak var txtLabel: UILabel!
+class DashBoardViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     let tabBar = UITabBar()
+    var listCasaResponse = [CasaResponse]()
+    
+    @IBOutlet weak var table: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        UITabBar.appearance().unselectedItemTintColor = UIColor.white
-    
-
-        print("viewDidLoad executed successfully")
+        UITabBar.appearance().unselectedItemTintColor = UIColor.white //cambio de color del tabbar
         
-        txtLabel.text = "TextDash"
+        table.delegate = self
+        table.dataSource = self
+        
+        let list1 = CasaResponse(nombre:"jose1",email: "jose@mal")
+        let list2 = CasaResponse(nombre:"jose2",email: "jose@mal")
+        let list3 = CasaResponse(nombre:"jose3",email: "jose@mal")
+        let list4 = CasaResponse(nombre:"jose4",email: "jose@mal")
+        
+        listCasaResponse.append(list1)
+        listCasaResponse.append(list2)
+        listCasaResponse.append(list3)
+        listCasaResponse.append(list4)
+        
+    }
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return listCasaResponse.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let list = listCasaResponse[indexPath.row]
+        cell.textLabel?.text = list.nombre
+        cell.detailTextLabel?.text = list.email
+        cell.imageView?.image = UIImage(systemName: "person.crop.circle.fill")
+        return cell
     }
 
 
