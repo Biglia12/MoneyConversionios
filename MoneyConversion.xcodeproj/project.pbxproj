@@ -16,7 +16,10 @@
 		3B8BB9432A0DA07600F06B55 /* HistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */; };
 		3B8BB9452A0DA09800F06B55 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */; };
 		3BB1BB902A413AF500C61E87 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3BB1BB8F2A413AF500C61E87 /* Alamofire */; };
-		3BF938392A30FA4F00D99923 /* CasaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF938382A30FA4F00D99923 /* CasaResponse.swift */; };
+		3BB1BB922A42377800C61E87 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1BB912A42377800C61E87 /* ApiServices.swift */; };
+		3BB1BB972A42415800C61E87 /* CasaResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1BB962A42415800C61E87 /* CasaResponseModel.swift */; };
+		3BB1BB992A4241DC00C61E87 /* DollarCasaResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1BB982A4241DC00C61E87 /* DollarCasaResponseModel.swift */; };
+		3BB1BB9B2A42643100C61E87 /* CasaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB1BB9A2A42643100C61E87 /* CasaResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +33,10 @@
 		3B3CF0D12A0D31300046EACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricViewController.swift; sourceTree = "<group>"; };
 		3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
-		3BF938382A30FA4F00D99923 /* CasaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasaResponse.swift; sourceTree = "<group>"; };
+		3BB1BB912A42377800C61E87 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		3BB1BB962A42415800C61E87 /* CasaResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasaResponseModel.swift; sourceTree = "<group>"; };
+		3BB1BB982A4241DC00C61E87 /* DollarCasaResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarCasaResponseModel.swift; sourceTree = "<group>"; };
+		3BB1BB9A2A42643100C61E87 /* CasaResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CasaResponse.swift; path = ../../../../Desktop/CasaResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 		3B3CF0C22A0D312F0046EACA /* MoneyConversion */ = {
 			isa = PBXGroup;
 			children = (
+				3BB1BB932A42383000C61E87 /* Services */,
 				3B61999E2A12F702007F6992 /* Presenter */,
 				3B61999D2A12F6F4007F6992 /* View */,
 				3B61999C2A12F6E9007F6992 /* Model */,
@@ -80,7 +87,9 @@
 		3B61999C2A12F6E9007F6992 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3BF938382A30FA4F00D99923 /* CasaResponse.swift */,
+				3BB1BB9A2A42643100C61E87 /* CasaResponse.swift */,
+				3BB1BB962A42415800C61E87 /* CasaResponseModel.swift */,
+				3BB1BB982A4241DC00C61E87 /* DollarCasaResponseModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -100,6 +109,14 @@
 			children = (
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3BB1BB932A42383000C61E87 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3BB1BB912A42377800C61E87 /* ApiServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB1BB992A4241DC00C61E87 /* DollarCasaResponseModel.swift in Sources */,
 				3B8BB9452A0DA09800F06B55 /* CalculatorViewController.swift in Sources */,
+				3BB1BB922A42377800C61E87 /* ApiServices.swift in Sources */,
+				3BB1BB972A42415800C61E87 /* CasaResponseModel.swift in Sources */,
 				3B3CF0C82A0D312F0046EACA /* DashBoardViewController.swift in Sources */,
-				3BF938392A30FA4F00D99923 /* CasaResponse.swift in Sources */,
+				3BB1BB9B2A42643100C61E87 /* CasaResponse.swift in Sources */,
 				3B3CF0C42A0D312F0046EACA /* AppDelegate.swift in Sources */,
 				3B3CF0C62A0D312F0046EACA /* SceneDelegate.swift in Sources */,
 				3B8BB9432A0DA07600F06B55 /* HistoricViewController.swift in Sources */,

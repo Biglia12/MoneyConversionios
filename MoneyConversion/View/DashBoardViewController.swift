@@ -17,6 +17,9 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("init dashboard")
+        ApiServices.sharedInstances.fetchData()
+        
         tabBar.appearance().unselectedItemTintColor = UIColor.white //cambio de color del tabbar
 
         table.delegate = self
