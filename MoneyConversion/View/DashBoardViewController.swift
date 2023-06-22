@@ -10,7 +10,8 @@ import UIKit
 class DashBoardViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     let tabBar = UITabBar.self
-    var listCasaResponse = [CasaResponse]()
+    var listCasaResponse = [CasaResponseModel]()
+    var listCasaResponse1 = [CasaResponse]()
     
     @IBOutlet weak var table: UITableView!
     
@@ -18,43 +19,22 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
         super.viewDidLoad()
         
         print("init dashboard")
-        ApiServices.sharedInstances.fetchData()
-        
         tabBar.appearance().unselectedItemTintColor = UIColor.white //cambio de color del tabbar
-
+        
         table.delegate = self
         table.dataSource = self
         table.bounces = false
         table.alwaysBounceVertical = false
         table.alwaysBounceHorizontal = false
-        
-        let list1 = CasaResponse(nombre:"jose1",email: "jose@mal")
-        let list2 = CasaResponse(nombre:"jose2",email: "jose@mal")
-        let list3 = CasaResponse(nombre:"jose3",email: "jose@mal")
-        let list4 = CasaResponse(nombre:"jose4",email: "jose@mal")
+
+        ApiServices.sharedInstances.fetchData { apiData in
+            self.listCasaResponse = apiData
+            
+            DispatchQueue.main.async {
+                self.table.reloadData()
+            }
+        }
     
-        
-        listCasaResponse.append(list1)
-        listCasaResponse.append(list2)
-        listCasaResponse.append(list3)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        listCasaResponse.append(list4)
-        
     }
     
     
@@ -65,8 +45,8 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let list = listCasaResponse[indexPath.row]
-        cell.textLabel?.text = list.nombre
-        cell.detailTextLabel?.text = list.email
+        cell.textLabel?.text = list.casa.compra
+        cell.detailTextLabel?.text = list.casa.nombre
         cell.imageView?.image = UIImage(systemName: "person.crop.circle.fill")
         return cell
     }
