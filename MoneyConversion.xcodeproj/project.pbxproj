@@ -13,6 +13,7 @@
 		3B3CF0CB2A0D312F0046EACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CF0C92A0D312F0046EACA /* Main.storyboard */; };
 		3B3CF0CD2A0D31300046EACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CF0CC2A0D31300046EACA /* Assets.xcassets */; };
 		3B3CF0D02A0D31300046EACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CF0CE2A0D31300046EACA /* LaunchScreen.storyboard */; };
+		3B4287F12A7198F300B96815 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4287F02A7198F300B96815 /* Constants.swift */; };
 		3B8BB9432A0DA07600F06B55 /* HistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */; };
 		3B8BB9452A0DA09800F06B55 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */; };
 		3BB1BB902A413AF500C61E87 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3BB1BB8F2A413AF500C61E87 /* Alamofire */; };
@@ -31,6 +32,7 @@
 		3B3CF0CC2A0D31300046EACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B3CF0CF2A0D31300046EACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B3CF0D12A0D31300046EACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4287F02A7198F300B96815 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricViewController.swift; sourceTree = "<group>"; };
 		3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		3BB1BB912A42377800C61E87 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				3BB1BB9A2A42643100C61E87 /* CasaResponse.swift */,
 				3BB1BB962A42415800C61E87 /* CasaResponseModel.swift */,
 				3BB1BB982A4241DC00C61E87 /* DollarCasaResponseModel.swift */,
+				3B4287F02A7198F300B96815 /* Constants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				3BB1BB922A42377800C61E87 /* ApiServices.swift in Sources */,
 				3BB1BB972A42415800C61E87 /* CasaResponseModel.swift in Sources */,
 				3B3CF0C82A0D312F0046EACA /* DashBoardViewController.swift in Sources */,
+				3B4287F12A7198F300B96815 /* Constants.swift in Sources */,
 				3BB1BB9B2A42643100C61E87 /* CasaResponse.swift in Sources */,
 				3B3CF0C42A0D312F0046EACA /* AppDelegate.swift in Sources */,
 				3B3CF0C62A0D312F0046EACA /* SceneDelegate.swift in Sources */,

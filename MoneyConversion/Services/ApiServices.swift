@@ -20,7 +20,7 @@ class ApiServices {
     
     func fetchData(handler: @escaping(_ apiData: [CasaResponseModel])->(Void) ){
          
-        let url = baseURL + "api.php?type=valoresprincipales"
+        let url = Constants.baseURLdolarSi + Constants.endURLdolarSi
         //let url = "https://jsonplaceholder.typicode.com/posts/"
         
         AF.request(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil, interceptor: nil).response { responce in
