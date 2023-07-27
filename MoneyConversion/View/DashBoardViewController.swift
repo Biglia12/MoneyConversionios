@@ -11,7 +11,7 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
     
     let tabBar = UITabBar.self
     var listCasaResponse = [CasaResponseModel]()
-    var listCasaResponse1 = [CasaResponse]()
+    //var listCasaResponse1 = [CasaResponse]()
     
     @IBOutlet weak var table: UITableView!
     

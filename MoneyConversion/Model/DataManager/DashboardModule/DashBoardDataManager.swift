@@ -1,20 +1,16 @@
 //
-//  ApiServices.swift
+//  DashBoardDataManager.swift
 //  MoneyConversion
 //
-//  Created by Ezequiel Biglia on 20/06/2023.
+//  Created by Ezequiel Biglia on 27/07/2023.
 //
 
 import Foundation
 import Alamofire
 
-//    @GET("/api/api.php?type=valoresprincipales"
-//    .baseUrl("https://www.dolarsi.com/api/")
-//https://www.dolarsi.com/api/api.php?type=valoresprincipales
-
-class ApiServices {
+class DashBoardDataManager {
     
-    static let sharedInstances = ApiServices()
+    static let sharedInstances = DashBoardDataManager()
     func fetchData(handler: @escaping(_ apiData: [CasaResponseModel])->(Void) ){
          
         let url = Constants.baseURLdolarSi + Constants.endURLdolarSi
@@ -38,7 +34,3 @@ class ApiServices {
     }
     
 }
-
-
-
-
