@@ -15,6 +15,7 @@
 		3B3CF0D02A0D31300046EACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CF0CE2A0D31300046EACA /* LaunchScreen.storyboard */; };
 		3B4287F12A7198F300B96815 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4287F02A7198F300B96815 /* Constants.swift */; };
 		3B4287F92A72FBBA00B96815 /* DashBoardDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4287F82A72FBBA00B96815 /* DashBoardDataManager.swift */; };
+		3B4287FB2A7303A900B96815 /* DashBoardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4287FA2A7303A900B96815 /* DashBoardPresenter.swift */; };
 		3B8BB9432A0DA07600F06B55 /* HistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */; };
 		3B8BB9452A0DA09800F06B55 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */; };
 		3BB1BB902A413AF500C61E87 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3BB1BB8F2A413AF500C61E87 /* Alamofire */; };
@@ -35,6 +36,7 @@
 		3B4287F02A7198F300B96815 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3B4287F62A72FA4E00B96815 /* CasaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CasaResponse.swift; path = ../../../../../Desktop/CasaResponse.swift; sourceTree = "<group>"; };
 		3B4287F82A72FBBA00B96815 /* DashBoardDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardDataManager.swift; sourceTree = "<group>"; };
+		3B4287FA2A7303A900B96815 /* DashBoardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardPresenter.swift; sourceTree = "<group>"; };
 		3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricViewController.swift; sourceTree = "<group>"; };
 		3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		3BB1BB912A42377800C61E87 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		3B61999E2A12F702007F6992 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				3B4287FA2A7303A900B96815 /* DashBoardPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4287FB2A7303A900B96815 /* DashBoardPresenter.swift in Sources */,
 				3BB1BB992A4241DC00C61E87 /* DollarCasaResponseModel.swift in Sources */,
 				3B8BB9452A0DA09800F06B55 /* CalculatorViewController.swift in Sources */,
 				3BB1BB922A42377800C61E87 /* ApiServices.swift in Sources */,

@@ -21,7 +21,7 @@ class ApiServices {
         //let url = "https://jsonplaceholder.typicode.com/posts/"
         
         AF.request(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil, interceptor: nil).response { responce in
-            let statusCode = responce.response?.statusCode
+            _ = responce.response?.statusCode
             switch responce.result {
             case.success(let data):
                 do{

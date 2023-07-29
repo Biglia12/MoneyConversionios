@@ -7,8 +7,16 @@
 
 import UIKit
 
-class DashBoardViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+// Protocolo DashBoardView para la comunicación entre el Presenter y la Vista
+protocol DashBoardView: AnyObject {
+    func showData(_ data: [CasaResponseModel])
+    func showError(_ message: String)
+}
+
+class DashBoardViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, DashBoardView{
     
+    
+    var presenter: DashBoardPresenter!
     let tabBar = UITabBar.self
     var listCasaResponse = [CasaResponseModel]()
     //var listCasaResponse1 = [CasaResponse]()
@@ -19,6 +27,7 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
         super.viewDidLoad()
         
         print("init dashboard")
+        
         tabBar.appearance().unselectedItemTintColor = UIColor.white //cambio de color del tabbar
         
         table.delegate = self
@@ -26,15 +35,20 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
         table.bounces = false
         table.alwaysBounceVertical = false
         table.alwaysBounceHorizontal = false
-
-        ApiServices.sharedInstances.fetchData { apiData in
-            self.listCasaResponse = apiData
-            
-            DispatchQueue.main.async {
-                self.table.reloadData()
-            }
-        }
+        
+        // Crear el Presenter y pasar la vista
+        presenter = DashBoardPresenter(view: self)
+        presenter.fetchData()
     
+    }
+    
+    func showData(_ data: [CasaResponseModel]) {
+        self.listCasaResponse = data
+        self.table.reloadData() // para llenar el table view ya que esto es asincronico
+    }
+    
+    func showError(_ message: String) {
+        print(message)
     }
     
     
