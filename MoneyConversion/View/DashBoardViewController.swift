@@ -49,6 +49,7 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
     
     func showError(_ message: String) {
         print(message)
+        
     }
     
     

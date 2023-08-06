@@ -8,8 +8,11 @@
 import UIKit
 
 class CalculatorViewController: UIViewController {
-
-    @IBOutlet weak var txtLabelCalculator: UILabel!
+    
+    //@IBOutlet weak var txtLabelCalculator: UILabel!
+    
+    @IBOutlet weak var pickerOptions: UIPickerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

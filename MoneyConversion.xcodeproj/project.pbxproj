@@ -16,6 +16,7 @@
 		3B4287F12A7198F300B96815 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4287F02A7198F300B96815 /* Constants.swift */; };
 		3B4287F92A72FBBA00B96815 /* DashBoardDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4287F82A72FBBA00B96815 /* DashBoardDataManager.swift */; };
 		3B4287FB2A7303A900B96815 /* DashBoardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4287FA2A7303A900B96815 /* DashBoardPresenter.swift */; };
+		3B5CB6682A80188D00B5F593 /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5CB6672A80188D00B5F593 /* RoundedCornerView.swift */; };
 		3B8BB9432A0DA07600F06B55 /* HistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */; };
 		3B8BB9452A0DA09800F06B55 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */; };
 		3BB1BB902A413AF500C61E87 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3BB1BB8F2A413AF500C61E87 /* Alamofire */; };
@@ -37,6 +38,7 @@
 		3B4287F62A72FA4E00B96815 /* CasaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CasaResponse.swift; path = ../../../../../Desktop/CasaResponse.swift; sourceTree = "<group>"; };
 		3B4287F82A72FBBA00B96815 /* DashBoardDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardDataManager.swift; sourceTree = "<group>"; };
 		3B4287FA2A7303A900B96815 /* DashBoardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardPresenter.swift; sourceTree = "<group>"; };
+		3B5CB6672A80188D00B5F593 /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
 		3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricViewController.swift; sourceTree = "<group>"; };
 		3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		3BB1BB912A42377800C61E87 /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				3B3CF0C72A0D312F0046EACA /* DashBoardViewController.swift */,
 				3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */,
 				3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */,
+				3B5CB6672A80188D00B5F593 /* RoundedCornerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				3B3CF0C42A0D312F0046EACA /* AppDelegate.swift in Sources */,
 				3B3CF0C62A0D312F0046EACA /* SceneDelegate.swift in Sources */,
 				3B8BB9432A0DA07600F06B55 /* HistoricViewController.swift in Sources */,
+				3B5CB6682A80188D00B5F593 /* RoundedCornerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
