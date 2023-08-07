@@ -30,6 +30,8 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
         
         tabBar.appearance().unselectedItemTintColor = UIColor.white //cambio de color del tabbar
         
+        let nib = UINib(nibName: "DashboardTableViewCell", bundle: nil)
+        table.register(nib, forCellReuseIdentifier: "DashboardTableViewCell")
         table.delegate = self
         table.dataSource = self
         table.bounces = false
@@ -58,16 +60,17 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = table.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = table.dequeueReusableCell(withIdentifier: "DashboardTableViewCell", for: indexPath) as! DashboardTableViewCell
         let list = listCasaResponse[indexPath.row]
-        cell.textLabel?.text = list.casa.compra
-        cell.detailTextLabel?.text = list.casa.nombre
-        if list.casa.nombre?.starts(with: "Bitcoin") == true {
-            cell.imageView?.image = UIImage(named: "ic_bitcoin")
-        }
-        if list.casa.nombre?.starts(with: "Dolar") == true {
-            cell.imageView?.image = UIImage(named: "ic_dollar")
-        }
+        cell.configure(with: list)
+        //cell.textLabel?.text = list.casa.compra
+        //cell.detailTextLabel?.text = list.casa.nombre
+        //if list.casa.nombre?.starts(with: "Bitcoin") == true {
+        //    cell.imageView?.image = UIImage(named: "ic_bitcoin")
+        //}
+        //if list.casa.nombre?.starts(with: "Dolar") == true {
+        //    cell.imageView?.image = UIImage(named: "ic_dollar")
+        //}
         //cell.imageView?.image = UIImage(systemName: "person.crop.circle.fill")
         return cell
     }

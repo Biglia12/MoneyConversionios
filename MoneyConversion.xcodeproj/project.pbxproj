@@ -16,6 +16,8 @@
 		3B4287F12A7198F300B96815 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4287F02A7198F300B96815 /* Constants.swift */; };
 		3B4287F92A72FBBA00B96815 /* DashBoardDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4287F82A72FBBA00B96815 /* DashBoardDataManager.swift */; };
 		3B4287FB2A7303A900B96815 /* DashBoardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4287FA2A7303A900B96815 /* DashBoardPresenter.swift */; };
+		3B5B5CBA2A813A52003CCA60 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B5CB82A813A52003CCA60 /* DashboardTableViewCell.swift */; };
+		3B5B5CBB2A813A52003CCA60 /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5B5CB92A813A52003CCA60 /* DashboardTableViewCell.xib */; };
 		3B5CB6682A80188D00B5F593 /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5CB6672A80188D00B5F593 /* RoundedCornerView.swift */; };
 		3B8BB9432A0DA07600F06B55 /* HistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */; };
 		3B8BB9452A0DA09800F06B55 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */; };
@@ -38,6 +40,8 @@
 		3B4287F62A72FA4E00B96815 /* CasaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CasaResponse.swift; path = ../../../../../Desktop/CasaResponse.swift; sourceTree = "<group>"; };
 		3B4287F82A72FBBA00B96815 /* DashBoardDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardDataManager.swift; sourceTree = "<group>"; };
 		3B4287FA2A7303A900B96815 /* DashBoardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardPresenter.swift; sourceTree = "<group>"; };
+		3B5B5CB82A813A52003CCA60 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		3B5B5CB92A813A52003CCA60 /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardTableViewCell.xib; sourceTree = "<group>"; };
 		3B5CB6672A80188D00B5F593 /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
 		3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricViewController.swift; sourceTree = "<group>"; };
 		3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 				3B3CF0C32A0D312F0046EACA /* AppDelegate.swift */,
 				3B3CF0C52A0D312F0046EACA /* SceneDelegate.swift */,
 				3B3CF0C92A0D312F0046EACA /* Main.storyboard */,
+				3B5B5CB92A813A52003CCA60 /* DashboardTableViewCell.xib */,
 				3B3CF0CC2A0D31300046EACA /* Assets.xcassets */,
 				3B3CF0CE2A0D31300046EACA /* LaunchScreen.storyboard */,
 				3B3CF0D12A0D31300046EACA /* Info.plist */,
@@ -134,6 +139,7 @@
 				3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */,
 				3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */,
 				3B5CB6672A80188D00B5F593 /* RoundedCornerView.swift */,
+				3B5B5CB82A813A52003CCA60 /* DashboardTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,6 +226,7 @@
 			files = (
 				3B3CF0D02A0D31300046EACA /* LaunchScreen.storyboard in Resources */,
 				3B3CF0CD2A0D31300046EACA /* Assets.xcassets in Resources */,
+				3B5B5CBB2A813A52003CCA60 /* DashboardTableViewCell.xib in Resources */,
 				3B3CF0CB2A0D312F0046EACA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5B5CBA2A813A52003CCA60 /* DashboardTableViewCell.swift in Sources */,
 				3B4287FB2A7303A900B96815 /* DashBoardPresenter.swift in Sources */,
 				3BB1BB992A4241DC00C61E87 /* DollarCasaResponseModel.swift in Sources */,
 				3B8BB9452A0DA09800F06B55 /* CalculatorViewController.swift in Sources */,

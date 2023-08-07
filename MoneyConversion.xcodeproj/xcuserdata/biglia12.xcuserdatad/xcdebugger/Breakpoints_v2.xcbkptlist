@@ -14,8 +14,8 @@
             filePath = "MoneyConversion/View/DashBoardViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "MoneyConversion/View/DashBoardViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "showData(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "MoneyConversion/View/DashBoardViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -127,6 +127,178 @@
                   startingLineNumber = "25"
                   endingLineNumber = "25"
                   offsetFromSymbolStart = "648">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FB49FBB-30DD-411D-A08C-F88DF28A8C5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConversion/View/DashBoardViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "457DB763-773E-40F0-AF8C-AE7945A9CB8B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConversion/View/DashboardTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "configure(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "457DB763-773E-40F0-AF8C-AE7945A9CB8B - 631be1de2f8c53b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConversion.DashboardTableViewCell.configure(with: MoneyConversion.CasaResponseModel) -&gt; ()"
+                  moduleName = "MoneyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/View/DashboardTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "696">
+               </Location>
+               <Location
+                  uuid = "457DB763-773E-40F0-AF8C-AE7945A9CB8B - 631be1de2f8c53b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConversion.DashboardTableViewCell.configure(with: MoneyConversion.CasaResponseModel) -&gt; ()"
+                  moduleName = "MoneyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/View/DashboardTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A4653EA-C6DE-4AAC-878D-94A5B29F9BB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConversion/View/DashboardTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "DashboardTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6A4653EA-C6DE-4AAC-878D-94A5B29F9BB7 - 75787ec5525a7d01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConversion.DashboardTableViewCell.titleLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MoneyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/View/DashboardTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "6A4653EA-C6DE-4AAC-878D-94A5B29F9BB7 - 45cf6e59677c111d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConversion.DashboardTableViewCell.titleLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MoneyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/View/DashboardTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "6A4653EA-C6DE-4AAC-878D-94A5B29F9BB7 - 81e0c60ffd8140c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConversion.DashboardTableViewCell.titleLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MoneyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/View/DashboardTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6A4653EA-C6DE-4AAC-878D-94A5B29F9BB7 - b09bab6945317ead"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConversion.DashboardTableViewCell.titleLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MoneyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/View/DashboardTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "6A4653EA-C6DE-4AAC-878D-94A5B29F9BB7 - 26987a68aa09156a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConversion.DashboardTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; MoneyConversion.DashboardTableViewCell"
+                  moduleName = "MoneyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/View/DashboardTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "6A4653EA-C6DE-4AAC-878D-94A5B29F9BB7 - ed257822a724959c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyConversion.DashboardTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MoneyConversion.DashboardTableViewCell&gt;"
+                  moduleName = "MoneyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/View/DashboardTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "104">
                </Location>
             </Locations>
          </BreakpointContent>
