@@ -27,11 +27,33 @@ class DashboardTableViewCell: UITableViewCell {
         buyTitleLabel.text = "Compra"
         variationTitleLabel.text = "Variación"
         
-        sellValueLabel.text = casaResponse.casa.venta
-        buyValueLabel.text = casaResponse.casa.compra
-        variationValueLabel.text = casaResponse.casa.variacion
-          
+        //imageDollar.image = UIImage(systemName: "person.crop.circle.fill")
+        
+        if casaResponse.casa.nombre?.starts(with: "Bitcoin") == true {
+            imageDollar.image = UIImage(named: "ic_bitcoin_small")
+        }
+        if casaResponse.casa.nombre?.starts(with: "Dolar") == true {
+            imageDollar.image = UIImage(named: "ic_dollar_small")
+        }
+        
+
+        updateLabel(casaResponse.casa.venta, label: sellValueLabel)
+        updateLabel(casaResponse.casa.compra, label: buyValueLabel)
+        updateLabel(casaResponse.casa.variacion, label: variationValueLabel)
+    
       }
+    
+    func updateLabel(_ value: String?, label: UILabel) {
+        if let value = value, !value.isEmpty {
+            label.text = value
+        } else {
+            changeText(label: label)
+        }
+    }
+    
+    func changeText (label: UILabel) {
+        label.text = "No hay datos"
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
