@@ -68,5 +68,68 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F68D99D-019E-4372-B99B-A62E0F2260FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "fetchData(handler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8F68D99D-019E-4372-B99B-A62E0F2260FD - d0b41107c3798d12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in MoneyConversion.DashBoardDataManager.fetchData(handler: (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MoneyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "988">
+               </Location>
+               <Location
+                  uuid = "8F68D99D-019E-4372-B99B-A62E0F2260FD - d0b41107c3798d12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in MoneyConversion.DashBoardDataManager.fetchData(handler: (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MoneyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "616">
+               </Location>
+               <Location
+                  uuid = "8F68D99D-019E-4372-B99B-A62E0F2260FD - d0b41107c3798d12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in MoneyConversion.DashBoardDataManager.fetchData(handler: (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MoneyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "648">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

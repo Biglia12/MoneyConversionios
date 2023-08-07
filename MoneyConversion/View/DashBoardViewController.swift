@@ -62,7 +62,13 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
         let list = listCasaResponse[indexPath.row]
         cell.textLabel?.text = list.casa.compra
         cell.detailTextLabel?.text = list.casa.nombre
-        cell.imageView?.image = UIImage(systemName: "person.crop.circle.fill")
+        if list.casa.nombre?.starts(with: "Bitcoin") == true {
+            cell.imageView?.image = UIImage(named: "ic_bitcoin")
+        }
+        if list.casa.nombre?.starts(with: "Dolar") == true {
+            cell.imageView?.image = UIImage(named: "ic_dollar")
+        }
+        //cell.imageView?.image = UIImage(systemName: "person.crop.circle.fill")
         return cell
     }
 

@@ -11,6 +11,7 @@ import Alamofire
 class DashBoardDataManager {
     
     static let sharedInstances = DashBoardDataManager()
+    private var list = [CasaResponseModel]()
     func fetchData(handler: @escaping(_ apiData: [CasaResponseModel])->(Void) ){
          
         let url = Constants.baseURLdolarSi + Constants.endURLdolarSi
@@ -22,7 +23,11 @@ class DashBoardDataManager {
             case.success(let data):
                 do{
                     let jsondata = try JSONDecoder ().decode([CasaResponseModel].self, from: data!)
-                    handler(jsondata)
+                    self.list = jsondata
+                    //for item in self.list {
+                      //  if item.casa.nombre
+                    //}
+                    handler(self.list)
                     print(jsondata)
                 }catch{
                     print("Error decoding JSON: \(error)")
