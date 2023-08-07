@@ -10,8 +10,10 @@ import UIKit
 class CalculatorViewController: UIViewController {
     
     //@IBOutlet weak var txtLabelCalculator: UILabel!
-    
     @IBOutlet weak var pickerOptions: UIPickerView!
+    @IBOutlet weak var txtFieldCalculate: UITextField!
+    @IBOutlet weak var btnCalculate: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -100,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				3B4287F72A72FB8300B96815 /* DashboardModule */,
+				3B5B5CC02A81A645003CCA60 /* CalculatorModule */,
+				3B5B5CBF2A81A630003CCA60 /* HistoricModule */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
@@ -122,6 +124,45 @@
 			path = DashboardModule;
 			sourceTree = "<group>";
 		};
+		3B5B5CBC2A81A4FA003CCA60 /* DashBoardModule */ = {
+			isa = PBXGroup;
+			children = (
+				3B5B5CB82A813A52003CCA60 /* DashboardTableViewCell.swift */,
+				3B3CF0C72A0D312F0046EACA /* DashBoardViewController.swift */,
+			);
+			path = DashBoardModule;
+			sourceTree = "<group>";
+		};
+		3B5B5CBD2A81A519003CCA60 /* CalculatorModule */ = {
+			isa = PBXGroup;
+			children = (
+				3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */,
+			);
+			path = CalculatorModule;
+			sourceTree = "<group>";
+		};
+		3B5B5CBE2A81A54B003CCA60 /* GraphicModule */ = {
+			isa = PBXGroup;
+			children = (
+				3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */,
+			);
+			path = GraphicModule;
+			sourceTree = "<group>";
+		};
+		3B5B5CBF2A81A630003CCA60 /* HistoricModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HistoricModule;
+			sourceTree = "<group>";
+		};
+		3B5B5CC02A81A645003CCA60 /* CalculatorModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CalculatorModule;
+			sourceTree = "<group>";
+		};
 		3B61999C2A12F6E9007F6992 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,11 +176,10 @@
 		3B61999D2A12F6F4007F6992 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3B3CF0C72A0D312F0046EACA /* DashBoardViewController.swift */,
-				3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */,
-				3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */,
+				3B5B5CBC2A81A4FA003CCA60 /* DashBoardModule */,
+				3B5B5CBD2A81A519003CCA60 /* CalculatorModule */,
+				3B5B5CBE2A81A54B003CCA60 /* GraphicModule */,
 				3B5CB6672A80188D00B5F593 /* RoundedCornerView.swift */,
-				3B5B5CB82A813A52003CCA60 /* DashboardTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

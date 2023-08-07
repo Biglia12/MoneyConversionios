@@ -135,22 +135,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2Y-MK-Edr">
-                                <rect key="frame" x="284" y="375" width="75" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4pI-kM-xag">
                                 <rect key="frame" x="16" y="375" width="250" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2Y-MK-Edr">
+                                <rect key="frame" x="284" y="375" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <view opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="NOs-jG-o5M" customClass="RoundedCornerView" customModule="MoneyConversion" customModuleProvider="target">
+                                <rect key="frame" x="16" y="444" width="343" height="75"/>
+                                <color key="backgroundColor" name="ColorPrimary"/>
+                                <color key="tintColor" name="ColorPrimary"/>
+                                <rect key="contentStretch" x="1" y="0.10000000000000001" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="2p6-zt-RAy"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CfN-Qw-MdT" secondAttribute="trailing" constant="16" id="2DH-xe-mTe"/>
                             <constraint firstItem="9z6-EW-NBW" firstAttribute="top" secondItem="RIO-2M-IcQ" secondAttribute="bottom" constant="8" id="2pf-9l-xnR"/>
+                            <constraint firstItem="NOs-jG-o5M" firstAttribute="top" secondItem="4pI-kM-xag" secondAttribute="bottom" constant="35" id="3k4-Ys-09y"/>
                             <constraint firstItem="CfN-Qw-MdT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="869-Ar-E1k"/>
                             <constraint firstItem="l2Y-MK-Edr" firstAttribute="top" secondItem="CfN-Qw-MdT" secondAttribute="bottom" constant="18" id="Acj-lv-uv8"/>
                             <constraint firstItem="CfN-Qw-MdT" firstAttribute="top" secondItem="w66-hd-Fvm" secondAttribute="bottom" constant="21" id="Dar-qp-jx1"/>
@@ -165,7 +180,9 @@
                             <constraint firstItem="w66-hd-Fvm" firstAttribute="top" secondItem="OOE-sx-AJy" secondAttribute="bottom" constant="8" symbolic="YES" id="SPA-Ul-9vL"/>
                             <constraint firstItem="OOE-sx-AJy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="VtY-cC-89S"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w66-hd-Fvm" secondAttribute="trailing" constant="16" id="XkK-uO-fCI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NOs-jG-o5M" secondAttribute="trailing" constant="16" id="awM-9G-VXa"/>
                             <constraint firstItem="9z6-EW-NBW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="b0l-S9-VFX"/>
+                            <constraint firstItem="NOs-jG-o5M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="j40-hS-f8m"/>
                             <constraint firstItem="4pI-kM-xag" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lKc-V4-apx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9z6-EW-NBW" secondAttribute="trailing" constant="16" id="nR2-up-29Q"/>
                             <constraint firstItem="RIO-2M-IcQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="tcs-tU-TDL"/>
@@ -175,7 +192,9 @@
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="8"/>
                     </tabBarItem>
                     <connections>
+                        <outlet property="btnCalculate" destination="l2Y-MK-Edr" id="KOS-kq-vgv"/>
                         <outlet property="pickerOptions" destination="OOE-sx-AJy" id="DPW-MS-hwp"/>
+                        <outlet property="txtFieldCalculate" destination="4pI-kM-xag" id="4ds-06-bnc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -24,9 +24,6 @@ class DashBoardDataManager {
                 do{
                     let jsondata = try JSONDecoder ().decode([CasaResponseModel].self, from: data!)
                     self.list = jsondata
-                    //for item in self.list {
-                      //  if item.casa.nombre
-                    //}
                     handler(self.list)
                     print(jsondata)
                 }catch{
