@@ -8,8 +8,9 @@
 import Foundation
 import Alamofire
 
-class DashBoardDataManager {
+class DashBoardDataManager: DashBoardModelProtocol {
     
+
     static let sharedInstances = DashBoardDataManager()
     private var list = [CasaResponseModel]()
     func fetchData(handler: @escaping(_ apiData: [CasaResponseModel])->(Void) ){

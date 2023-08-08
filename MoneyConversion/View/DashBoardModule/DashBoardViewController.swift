@@ -8,12 +8,12 @@
 import UIKit
 
 // Protocolo DashBoardView para la comunicación entre el Presenter y la Vista
-protocol DashBoardView: AnyObject {
-    func showData(_ data: [CasaResponseModel])
-    func showError(_ message: String)
-}
+//protocol DashBoardView: AnyObject {
+//    func showData(_ data: [CasaResponseModel])
+//    func showError(_ message: String)
+//}
 
-class DashBoardViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, DashBoardView{
+class DashBoardViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, DashBoardViewProtocol {
     
     
     var presenter: DashBoardPresenter!

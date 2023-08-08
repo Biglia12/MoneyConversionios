@@ -78,8 +78,8 @@
             filePath = "MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "fetchData(handler:)"
             landmarkType = "7">
             <Locations>

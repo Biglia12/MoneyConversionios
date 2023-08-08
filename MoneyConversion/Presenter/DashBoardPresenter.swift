@@ -7,7 +7,8 @@
 
 import Foundation
 
-class DashBoardPresenter {
+class DashBoardPresenter: DashBoardPresenterProtocol {
+    
     private weak var view: DashBoardViewController?
     private let dataManager: DashBoardDataManager = DashBoardDataManager()
     
@@ -17,8 +18,7 @@ class DashBoardPresenter {
     
     
     func fetchData() {
-        dataManager.fetchData { apiData in
-            DispatchQueue.main.async {
+        dataManager.fetchData { apiData in DispatchQueue.main.async {
                 if (apiData.isEmpty){
                     self.view?.showError("No hay datos disponibles.")
                 } else{
