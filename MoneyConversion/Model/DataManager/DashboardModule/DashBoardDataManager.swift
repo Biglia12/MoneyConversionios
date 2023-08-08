@@ -10,11 +10,14 @@ import Alamofire
 
 class DashBoardDataManager: DashBoardModelProtocol {
     
-
     static let sharedInstances = DashBoardDataManager()
     private var list = [CasaResponseModel]()
+    var presenter: DashBoardPresenterProtocol?
+    
     func fetchData(handler: @escaping(_ apiData: [CasaResponseModel])->(Void) ){
-         
+        
+        //presenter?.showIndicatorView(show: true)
+        
         let url = Constants.baseURLdolarSi + Constants.endURLdolarSi
         //let url = "https://jsonplaceholder.typicode.com/posts/"
         
@@ -23,6 +26,7 @@ class DashBoardDataManager: DashBoardModelProtocol {
             switch responce.result {
             case.success(let data):
                 do{
+                    //self.presenter?.showIndicatorView(show: false)
                     let jsondata = try JSONDecoder ().decode([CasaResponseModel].self, from: data!)
                     self.list = jsondata
                     handler(self.list)
@@ -31,6 +35,7 @@ class DashBoardDataManager: DashBoardModelProtocol {
                     print("Error decoding JSON: \(error)")
                 }
             case .failure(let error):
+                //self.presenter?.showIndicatorView(show: false)
                 print(error)
             }
         }

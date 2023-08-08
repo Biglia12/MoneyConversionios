@@ -12,12 +12,14 @@ protocol DashBoardViewProtocol {
     // Declaraciones de métodos y propiedades para la vista
     func showData(_ data: [CasaResponseModel])
     func showError(_ message: String)
+    func showIndicatorView(show: Bool)
 }
 
 // Protocolo para el presentador (Presenter)
 protocol DashBoardPresenterProtocol {
     // Declaraciones de métodos y propiedades para el presentador
     func fetchData()
+    func showIndicatorView(show: Bool)
 }
 
 // Protocolo para el modelo (Model)

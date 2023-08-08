@@ -15,10 +15,11 @@ import UIKit
 
 class DashBoardViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, DashBoardViewProtocol {
     
-    
     var presenter: DashBoardPresenter!
     let tabBar = UITabBar.self
     var listCasaResponse = [CasaResponseModel]()
+    
+    private let activityIndicator = UIActivityIndicatorView()
     //var listCasaResponse1 = [CasaResponse]()
     
     @IBOutlet weak var table: UITableView!
@@ -29,6 +30,8 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
         print("init dashboard")
         
         tabBar.appearance().unselectedItemTintColor = UIColor.white //cambio de color del tabbar
+        
+        //showIndicatorView(show: true)
         
         let nib = UINib(nibName: "DashboardTableViewCell", bundle: nil)
         table.register(nib, forCellReuseIdentifier: "DashboardTableViewCell")
@@ -41,7 +44,20 @@ class DashBoardViewController: UIViewController, UITableViewDelegate, UITableVie
         // Crear el Presenter y pasar la vista
         presenter = DashBoardPresenter(view: self)
         presenter.fetchData()
+        
     
+    }
+    
+    func showIndicatorView(show: Bool) {
+        if (show){
+            activityIndicator.center = view.center
+            activityIndicator.style = UIActivityIndicatorView.Style.medium
+            activityIndicator.alpha = 0.5
+            activityIndicator.startAnimating()
+            view.addSubview(activityIndicator)
+        } else {
+            activityIndicator.stopAnimating()
+        }
     }
     
     func showData(_ data: [CasaResponseModel]) {

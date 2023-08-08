@@ -18,16 +18,23 @@ class DashBoardPresenter: DashBoardPresenterProtocol {
     
     
     func fetchData() {
+        self.view?.showIndicatorView(show: true)
         dataManager.fetchData { apiData in DispatchQueue.main.async {
-                if (apiData.isEmpty){
+            if (apiData.isEmpty){
                     self.view?.showError("No hay datos disponibles.")
+                self.view?.showIndicatorView(show: false)
                 } else{
                     self.view?.showData(apiData)
+                    self.view?.showIndicatorView(show: false)
                 }
             }
             
         }
         
        }
+    
+    func showIndicatorView(show: Bool) {
+        self.view?.showIndicatorView(show: show)
+    }
     
 }
