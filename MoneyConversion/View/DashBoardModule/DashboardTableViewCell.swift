@@ -36,8 +36,17 @@ class DashboardTableViewCell: UITableViewCell {
             imageDollar.image = UIImage(named: "ic_dollar_small")
         }
         
+        
+        if let ventaValue = casaResponse.casa.venta { //si, es hoirrible esto pero no tenemos manera ya que el servicio peude devolverno cualquier dato
+            switch ventaValue {
+            case .string(let ventaString):
+                updateLabel(ventaString, label: sellValueLabel)
+            case .empty: break
+                // Manejar el caso de venta vacía si es necesario
+            }
+        }
 
-        updateLabel(casaResponse.casa.venta, label: sellValueLabel)
+        //updateLabel(casaResponse.casa.venta, label: sellValueLabel)
         updateLabel(casaResponse.casa.compra, label: buyValueLabel)
         updateLabel(casaResponse.casa.variacion, label: variationValueLabel)
     
