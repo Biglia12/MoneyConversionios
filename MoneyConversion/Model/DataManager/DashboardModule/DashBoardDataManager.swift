@@ -29,8 +29,14 @@ class DashBoardDataManager: DashBoardModelProtocol {
                     //self.presenter?.showIndicatorView(show: false)
                     let jsondata = try JSONDecoder ().decode([CasaResponseModel].self, from: data!)
                     self.list = jsondata
+                    
+                    let filteredList = self.list.filter { element in
+                        return element.casa.nombre != "Argentina" && element.casa.nombre != "Bitcoin"
+                    }
+                    self.list = filteredList
+                    
                     handler(self.list)
-                    print(jsondata)
+                    print(self.list)
                 }catch{
                     print("Error decoding JSON: \(error)")
                 }

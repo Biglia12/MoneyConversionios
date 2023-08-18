@@ -19,6 +19,8 @@
 		3B5B5CBA2A813A52003CCA60 /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B5CB82A813A52003CCA60 /* DashboardTableViewCell.swift */; };
 		3B5B5CBB2A813A52003CCA60 /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5B5CB92A813A52003CCA60 /* DashboardTableViewCell.xib */; };
 		3B5B5CC32A81B1F4003CCA60 /* DashBoardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B5CC22A81B1F4003CCA60 /* DashBoardProtocol.swift */; };
+		3B5B5CC52A831CEF003CCA60 /* CalculatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B5CC42A831CEF003CCA60 /* CalculatorProtocol.swift */; };
+		3B5B5CC72A8322C1003CCA60 /* CalculatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B5CC62A8322C1003CCA60 /* CalculatorPresenter.swift */; };
 		3B5CB6682A80188D00B5F593 /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5CB6672A80188D00B5F593 /* RoundedCornerView.swift */; };
 		3B8BB9432A0DA07600F06B55 /* HistoricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */; };
 		3B8BB9452A0DA09800F06B55 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */; };
@@ -44,6 +46,8 @@
 		3B5B5CB82A813A52003CCA60 /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
 		3B5B5CB92A813A52003CCA60 /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardTableViewCell.xib; sourceTree = "<group>"; };
 		3B5B5CC22A81B1F4003CCA60 /* DashBoardProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardProtocol.swift; sourceTree = "<group>"; };
+		3B5B5CC42A831CEF003CCA60 /* CalculatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorProtocol.swift; sourceTree = "<group>"; };
+		3B5B5CC62A8322C1003CCA60 /* CalculatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPresenter.swift; sourceTree = "<group>"; };
 		3B5CB6672A80188D00B5F593 /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
 		3B8BB9422A0DA07600F06B55 /* HistoricViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricViewController.swift; sourceTree = "<group>"; };
 		3B8BB9442A0DA09800F06B55 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				3B5B5CC22A81B1F4003CCA60 /* DashBoardProtocol.swift */,
+				3B5B5CC42A831CEF003CCA60 /* CalculatorProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 			children = (
 				3B5B5CC12A81B1A5003CCA60 /* Protocols */,
 				3B4287FA2A7303A900B96815 /* DashBoardPresenter.swift */,
+				3B5B5CC62A8322C1003CCA60 /* CalculatorPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -292,8 +298,10 @@
 				3B5B5CBA2A813A52003CCA60 /* DashboardTableViewCell.swift in Sources */,
 				3B4287FB2A7303A900B96815 /* DashBoardPresenter.swift in Sources */,
 				3BB1BB992A4241DC00C61E87 /* DollarCasaResponseModel.swift in Sources */,
+				3B5B5CC52A831CEF003CCA60 /* CalculatorProtocol.swift in Sources */,
 				3B8BB9452A0DA09800F06B55 /* CalculatorViewController.swift in Sources */,
 				3BB1BB922A42377800C61E87 /* ApiServices.swift in Sources */,
+				3B5B5CC72A8322C1003CCA60 /* CalculatorPresenter.swift in Sources */,
 				3BB1BB972A42415800C61E87 /* CasaResponseModel.swift in Sources */,
 				3B4287F92A72FBBA00B96815 /* DashBoardDataManager.swift in Sources */,
 				3B3CF0C82A0D312F0046EACA /* DashBoardViewController.swift in Sources */,

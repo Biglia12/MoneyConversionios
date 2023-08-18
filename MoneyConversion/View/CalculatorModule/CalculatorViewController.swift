@@ -7,19 +7,28 @@
 
 import UIKit
 
-class CalculatorViewController: UIViewController {
+class CalculatorViewController: UIViewController, CalculatorViewProtocol {
+    
     
     //@IBOutlet weak var txtLabelCalculator: UILabel!
     @IBOutlet weak var pickerOptions: UIPickerView!
     @IBOutlet weak var txtFieldCalculate: UITextField!
     @IBOutlet weak var btnCalculate: UIButton!
+    var calculatorPresenter: CalculatorPresenter?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
+        print("calculatorView")
+
+        calculatorPresenter = CalculatorPresenter(view: self)
     
+    }
+    
+    func displaySharedData(_ data: [CasaResponseModel]) {
+        print("caluclator")
+        print(data)
     }
     
 

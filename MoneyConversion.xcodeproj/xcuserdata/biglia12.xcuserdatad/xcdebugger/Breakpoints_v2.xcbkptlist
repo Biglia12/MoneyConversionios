@@ -30,8 +30,8 @@
             filePath = "MoneyConversion/Presenter/DashBoardPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "fetchData()"
             landmarkType = "7">
             <Locations>
@@ -64,6 +64,21 @@
                   startingLineNumber = "27"
                   endingLineNumber = "27"
                   offsetFromSymbolStart = "712">
+               </Location>
+               <Location
+                  uuid = "6FED7766-00CD-499C-ABBB-FD94759AAD63 - e8f122d295db474a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; () in MoneyConversion.DashBoardPresenter.fetchData() -&gt; ()"
+                  moduleName = "MoneyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Presenter/DashBoardPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "540">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -98,99 +113,6 @@
             endingLineNumber = "59"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8F68D99D-019E-4372-B99B-A62E0F2260FD"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "fetchData(handler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "8F68D99D-019E-4372-B99B-A62E0F2260FD - d0b41107c3798d12"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in MoneyConversion.DashBoardDataManager.fetchData(handler: (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "MoneyConversion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "988">
-               </Location>
-               <Location
-                  uuid = "8F68D99D-019E-4372-B99B-A62E0F2260FD - d0b41107c3798d12"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in MoneyConversion.DashBoardDataManager.fetchData(handler: (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "MoneyConversion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "616">
-               </Location>
-               <Location
-                  uuid = "8F68D99D-019E-4372-B99B-A62E0F2260FD - d0b41107c3798d12"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in MoneyConversion.DashBoardDataManager.fetchData(handler: (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "MoneyConversion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "648">
-               </Location>
-               <Location
-                  uuid = "8F68D99D-019E-4372-B99B-A62E0F2260FD - d0b41107c3798ab5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in MoneyConversion.DashBoardDataManager.fetchData(handler: (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "MoneyConversion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "696">
-               </Location>
-               <Location
-                  uuid = "8F68D99D-019E-4372-B99B-A62E0F2260FD - d0b41107c3798ab5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in MoneyConversion.DashBoardDataManager.fetchData(handler: (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "MoneyConversion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "648">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -447,46 +369,62 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "82E3CC0D-B5AD-460D-BA2D-1564E9E9C000"
+            uuid = "8BF56D4B-61DD-4D70-AF71-7F20A0EDB7A1"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
+            filePath = "MoneyConversion/Presenter/DashBoardPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "fetchData(handler:)"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "showIndicatorView(show:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC24556A-B5D6-41D9-B64F-F4BDE48FFC8F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConversion/View/CalculatorModule/CalculatorViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "displaySharedData(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "82E3CC0D-B5AD-460D-BA2D-1564E9E9C000 - f8d162f1258bdc49"
+                  uuid = "AC24556A-B5D6-41D9-B64F-F4BDE48FFC8F - 62534d240e97c485"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "MoneyConversion.DashBoardDataManager.fetchData(handler: (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "MoneyConversion.CalculatorViewController.displaySharedData(Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()"
                   moduleName = "MoneyConversion"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/View/CalculatorModule/CalculatorViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "64">
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "344">
                </Location>
                <Location
-                  uuid = "82E3CC0D-B5AD-460D-BA2D-1564E9E9C000 - f8d162f1258bdd8f"
+                  uuid = "AC24556A-B5D6-41D9-B64F-F4BDE48FFC8F - 62534d240e97c485"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "MoneyConversion.DashBoardDataManager.fetchData(handler: (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()) -&gt; ()"
+                  symbolName = "MoneyConversion.CalculatorViewController.displaySharedData(Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()"
                   moduleName = "MoneyConversion"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
+                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/View/CalculatorModule/CalculatorViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "21"
-                  endingLineNumber = "21"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
                   offsetFromSymbolStart = "60">
                </Location>
             </Locations>
@@ -495,36 +433,52 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8BF56D4B-61DD-4D70-AF71-7F20A0EDB7A1"
-            shouldBeEnabled = "No"
+            uuid = "2FBD73DA-FA2F-4CEE-A5BC-E27630F692B9"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MoneyConversion/Presenter/DashBoardPresenter.swift"
+            filePath = "MoneyConversion/Presenter/CalculatorPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "showIndicatorView(show:)"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "displaySharedData(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F675CEB7-6CCC-4B9D-BC1A-443F33B2FA30"
+            uuid = "AB9D81F7-0ABD-44AA-AADB-1EC34B634758"
             shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConversion/Presenter/DashBoardPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92D6569A-D922-4AC2-AD45-CD07650FCF6E"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "fetchData(handler:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "F675CEB7-6CCC-4B9D-BC1A-443F33B2FA30 - d0b41107c3798a96"
+                  uuid = "92D6569A-D922-4AC2-AD45-CD07650FCF6E - d0b41107c3798bd8"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -534,12 +488,12 @@
                   urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "552">
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1924">
                </Location>
                <Location
-                  uuid = "F675CEB7-6CCC-4B9D-BC1A-443F33B2FA30 - d0b41107c3798ab5"
+                  uuid = "92D6569A-D922-4AC2-AD45-CD07650FCF6E - d0b41107c3798bbd"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -549,9 +503,9 @@
                   urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "648">
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1168">
                </Location>
             </Locations>
          </BreakpointContent>
