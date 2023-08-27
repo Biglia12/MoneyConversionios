@@ -36,6 +36,7 @@ class DashBoardDataManager: DashBoardModelProtocol {
                     self.list = filteredList
                     
                     handler(self.list)
+                    self.saveValue()
                     print(self.list)
                 }catch{
                     print("Error decoding JSON: \(error)")
@@ -47,4 +48,7 @@ class DashBoardDataManager: DashBoardModelProtocol {
         }
     }
     
+    func saveValue(){
+        UserDefaultsManagers.shared.saveList(list)
+    }
 }

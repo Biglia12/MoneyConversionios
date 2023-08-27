@@ -385,64 +385,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "AC24556A-B5D6-41D9-B64F-F4BDE48FFC8F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MoneyConversion/View/CalculatorModule/CalculatorViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "displaySharedData(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "AC24556A-B5D6-41D9-B64F-F4BDE48FFC8F - 62534d240e97c485"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MoneyConversion.CalculatorViewController.displaySharedData(Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()"
-                  moduleName = "MoneyConversion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/View/CalculatorModule/CalculatorViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "344">
-               </Location>
-               <Location
-                  uuid = "AC24556A-B5D6-41D9-B64F-F4BDE48FFC8F - 62534d240e97c485"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MoneyConversion.CalculatorViewController.displaySharedData(Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()"
-                  moduleName = "MoneyConversion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/View/CalculatorModule/CalculatorViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "60">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "2FBD73DA-FA2F-4CEE-A5BC-E27630F692B9"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MoneyConversion/Presenter/CalculatorPresenter.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
-            landmarkName = "displaySharedData(_:)"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "displaySharedData()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -476,38 +428,54 @@
             endingLineNumber = "38"
             landmarkName = "fetchData(handler:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "92D6569A-D922-4AC2-AD45-CD07650FCF6E - d0b41107c3798b5c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in MoneyConversion.DashBoardDataManager.fetchData(handler: (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "MoneyConversion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "1688">
-               </Location>
-               <Location
-                  uuid = "92D6569A-D922-4AC2-AD45-CD07650FCF6E - d0b41107c3798bbd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in MoneyConversion.DashBoardDataManager.fetchData(handler: (Swift.Array&lt;MoneyConversion.CasaResponseModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "MoneyConversion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/biglia12/Proyectosios/MoneyConversion/MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "1168">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F6907BE-E60A-40AD-81EB-D8C99719C9DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConversion/Model/DataManager/CalculatorModule/CalculatorDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "displaySharedData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96E127E4-1776-4BD6-BA42-29D5CBE84928"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchData(handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3119A74-FF45-4EFB-A62C-4A1D3DF364A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyConversion/Model/DataManager/DashboardModule/DashBoardDataManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "saveValue()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

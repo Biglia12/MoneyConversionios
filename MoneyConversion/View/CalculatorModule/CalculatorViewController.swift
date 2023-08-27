@@ -23,13 +23,10 @@ class CalculatorViewController: UIViewController, CalculatorViewProtocol {
         print("calculatorView")
 
         calculatorPresenter = CalculatorPresenter(view: self)
+        calculatorPresenter?.displaySharedData()
     
     }
     
-    func displaySharedData(_ data: [CasaResponseModel]) {
-        print("caluclator")
-        print(data)
-    }
     
 
     /*

@@ -10,13 +10,15 @@ import Foundation
 class CalculatorPresenter: CalculatorPresenterProtocol {
     
     private var view: CalculatorViewController?
+    private var calculatorDataManager: CalculatorDataManager = CalculatorDataManager()
     
     init(view: CalculatorViewController) {
         self.view = view
     }
     
-    func displaySharedData(_ data: [CasaResponseModel]) {
-        self.view?.displaySharedData(data) // Mostrar los datos en CalculatorViewController
+    func displaySharedData() {
+       // self.view?.displaySharedData(data) // Mostrar los datos en CalculatorViewController
+        calculatorDataManager.displaySharedData()
     }
     
 }

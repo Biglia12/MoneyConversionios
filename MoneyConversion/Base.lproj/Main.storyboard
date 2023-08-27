@@ -111,11 +111,48 @@
                             </pickerView>
                             <view opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="w66-hd-Fvm" customClass="RoundedCornerView" customModule="MoneyConversion" customModuleProvider="target">
                                 <rect key="frame" x="16" y="240" width="343" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compra:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWl-Zz-slq">
+                                        <rect key="frame" x="15" y="41" width="65.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhq-fu-lTU">
+                                        <rect key="frame" x="82" y="12" width="21" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Venta:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnP-gb-t9f">
+                                        <rect key="frame" x="15" y="12" width="49" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zM1-z8-tPb">
+                                        <rect key="frame" x="88" y="40" width="21" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" name="ColorPrimary"/>
                                 <color key="tintColor" name="ColorPrimary"/>
                                 <rect key="contentStretch" x="1" y="0.10000000000000001" width="1" height="1"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="zM1-z8-tPb" secondAttribute="trailing" constant="234" id="7Av-Jw-Nox"/>
+                                    <constraint firstItem="Hhq-fu-lTU" firstAttribute="baseline" secondItem="HnP-gb-t9f" secondAttribute="baseline" id="BJG-0q-60P"/>
+                                    <constraint firstItem="zM1-z8-tPb" firstAttribute="top" secondItem="Hhq-fu-lTU" secondAttribute="bottom" constant="7" id="CMu-AO-8eu"/>
                                     <constraint firstAttribute="height" constant="75" id="DBq-cz-aBA"/>
+                                    <constraint firstItem="hWl-Zz-slq" firstAttribute="top" secondItem="HnP-gb-t9f" secondAttribute="bottom" constant="8" symbolic="YES" id="HFb-co-6mD"/>
+                                    <constraint firstItem="Hhq-fu-lTU" firstAttribute="leading" secondItem="HnP-gb-t9f" secondAttribute="trailing" constant="18" id="LBL-Jf-9fX"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hhq-fu-lTU" secondAttribute="trailing" constant="240" id="YnD-jX-CN5"/>
+                                    <constraint firstItem="hWl-Zz-slq" firstAttribute="leading" secondItem="w66-hd-Fvm" secondAttribute="leading" constant="15" id="eZH-zf-BZn"/>
+                                    <constraint firstAttribute="bottom" secondItem="hWl-Zz-slq" secondAttribute="bottom" constant="13" id="hi3-ww-fsD"/>
+                                    <constraint firstItem="HnP-gb-t9f" firstAttribute="leading" secondItem="w66-hd-Fvm" secondAttribute="leading" constant="15" id="lhA-L0-1aJ"/>
+                                    <constraint firstItem="HnP-gb-t9f" firstAttribute="top" secondItem="w66-hd-Fvm" secondAttribute="top" constant="12" id="oVM-NI-lgg"/>
+                                    <constraint firstAttribute="bottom" secondItem="zM1-z8-tPb" secondAttribute="bottom" constant="14" id="zjt-7g-cov"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">

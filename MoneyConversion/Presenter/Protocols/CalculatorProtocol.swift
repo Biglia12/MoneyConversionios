@@ -9,16 +9,16 @@ import Foundation
 
 // Protocolo para la vista (View)
 protocol CalculatorViewProtocol {
-    func displaySharedData(_ data: [CasaResponseModel])
+   
 }
 
 // Protocolo para el presentador (Presenter)
 protocol CalculatorPresenterProtocol {
-    func displaySharedData(_ data: [CasaResponseModel])
+    func displaySharedData()
 }
 
 // Protocolo para el modelo (Model)
 protocol CalculatorModelProtocol {
-    
+    func displaySharedData()
 }
 
